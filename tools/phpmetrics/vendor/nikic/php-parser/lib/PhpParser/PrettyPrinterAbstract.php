@@ -724,7 +724,7 @@ abstract class PrettyPrinterAbstract
                 // This was a single statement without braces, but either additional statements
                 // have been added, or the single statement has been removed. This requires the
                 // addition of braces. For now fall back.
-                // TODO: Try to preserve formatting
+                
                 return null;
             }
         }
