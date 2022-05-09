@@ -5,7 +5,6 @@
  */
 
 // TODO: remove this.
-error_log('test');
 
 // TODO remove this.
 Debug::bam('test');
