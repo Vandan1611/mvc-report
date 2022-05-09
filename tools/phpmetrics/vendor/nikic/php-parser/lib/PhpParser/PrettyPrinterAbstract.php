@@ -494,8 +494,7 @@ abstract class PrettyPrinterAbstract
             $result .= $this->origTokens->getTokenCode($pos, count($origTokens), 0);
         } else {
             // Fallback
-            // TODO Add <?php properly
-            $result = "<?php\n" . $this->pStmts($stmts, false);
+            $result = '\n' . $this->pStmts($stmts, false);
         }
 
         return ltrim($this->handleMagicTokens($result));
