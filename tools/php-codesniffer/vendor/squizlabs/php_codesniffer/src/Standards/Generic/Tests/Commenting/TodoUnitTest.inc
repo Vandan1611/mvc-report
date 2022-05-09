@@ -7,7 +7,6 @@
 // TODO: remove this.
 
 // TODO remove this.
-Debug::bam('test');
 
 // todo - remove this.
 
