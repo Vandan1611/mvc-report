@@ -14,12 +14,7 @@ if ($test) {
         ]]>
         </code>
         <code title="Invalid: A todo comment.">
-        <![CDATA[
-// <em>TODO</em>: This needs to be fixed!
-if ($test) {
-    $var = 1;
-}
-        ]]>
+       
         </code>
     </code_comparison>
 </documentation>
