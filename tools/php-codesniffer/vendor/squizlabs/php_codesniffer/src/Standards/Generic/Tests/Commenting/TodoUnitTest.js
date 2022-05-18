@@ -8,7 +8,6 @@
 alert('test');
 
 // TODO remove this.
-alert('test');
 
 // todo - remove this.
 
