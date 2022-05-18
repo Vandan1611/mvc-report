@@ -70,7 +70,7 @@ final class ControlCaseStructuresAnalyzer
 
                     $stack[$depth]['open'] = $tokens->getNextMeaningfulToken($index);
                     $stack[$depth]['alternative_syntax'] = $tokens[$stack[$depth]['open']]->equals(':');
-                } elseif (\defined('T_MATCH') && $token->isGivenKind(T_MATCH)) { // @TODO: drop condition when PHP 8.0+ is required
+                } elseif (\defined('T_MATCH') && $token->isGivenKind(T_MATCH)) { 
                     $index = $tokens->getNextMeaningfulToken($index);
                     $index = $tokens->findBlockEnd(Tokens::BLOCK_TYPE_PARENTHESIS_BRACE, $index);
 
