@@ -251,7 +251,7 @@ abstract class PHPParserVersion56 extends PHPParserVersion55
             $expressions[$count - 1]->getEndColumn()
         );
 
-        // @todo ASTValue must be a valid node.
+        // @todo declare ASTValue must be a valid node.
         $value->setValue($expr);
 
         return $value;
